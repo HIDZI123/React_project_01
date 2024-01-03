@@ -1,7 +1,6 @@
 @import "colors";
 
 nav {
-  border: 1px solid #837f7f4e;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -15,21 +14,19 @@ nav {
     text-transform: uppercase;
   }
 
-
   > main {
-    border: 1px solid #837f7f4e;
     width: 70%;
     display: flex;
     justify-content: flex-end;
 
-    > a{
-        color: $dark;
-        margin: 1rem;
+    > a {
+      color: $dark;
+      margin: 1rem;
+      text-decoration: none;
 
-        &:hover {
-            color: $third;
-        }
+      &:hover {
+        color: $third;
+      }
     }
-
   }
 }
